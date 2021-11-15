@@ -345,6 +345,13 @@ input:focus {
         height: auto;
     }
 
+    .cli  .grid > *:first-child {
+        grid-column: 1;
+        grid-row: 1;
+        width: 100%;
+        height: auto;
+    }
+
     .show-case {
         margin: auto;
         height: auto;
@@ -371,6 +378,7 @@ input:focus {
         -ms-transform: skewY(-3deg);
     
     }
+
 
 
 }
