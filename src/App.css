@@ -399,3 +399,21 @@ input:focus {
         padding: 10px;
     }
 }
+
+/* Features page */
+
+.server {
+    padding:70px;
+    height: 100%;
+}
+
+.server .container {
+    justify-content: center;
+}
+
+.server img {
+    width: 200px;
+    height: 100%;
+    justify-self: flex-end;
+    
+}

@@ -1,6 +1,9 @@
 import {Link} from "react-router-dom";
 import Footer from "../components/Footer";
 import Navbar from "../components/Navbar";
+// image import
+
+import Daco from '../assets/images/Daco1.png'
 
 
 
@@ -19,7 +22,7 @@ const Features = (props) => {
                         <p class="text-white lead">Check out the features of Ogwugo Cloud that separates us from the rest.</p>
                     </div>
 
-                    <img src="./Daco_415558.png" alt="servo" />
+                    <img src={Daco} alt="servo" />
 
                 </div>
             </section>
