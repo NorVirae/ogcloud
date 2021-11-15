@@ -38,6 +38,37 @@ h1, h2 {
 
 /* Utilities */
 
+.alert {
+    font-size: 1rem;
+    padding:10px 10px;
+
+}
+
+.alert-success {
+    background-color: #42ba96;
+    color: var(--white-color);
+
+}
+
+.alert i {
+    margin: 0 5px;
+}
+
+.docs-list h2 {
+    color: rgb(32, 31, 31);
+    margin: 20px 0;
+}
+
+.alert-dark {
+    background-color: rgb(44, 43, 43);
+    color: var(--white-color);
+
+}
+
+.text-info {
+    color: var(--secondary-color);
+}
+
 .padding-0 {
     padding: 0;
 }

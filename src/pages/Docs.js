@@ -30,10 +30,10 @@ const Docs = (props) => {
 
         <section className="docs-list">
             <div className={"container grid"}>
-                <div className="document-lists card">
+                <div className="card document-lists ">
                     <h1>Essentials</h1>
                     <ul>
-                        <li>Introduction</li>
+                        <li className={"text-info"}>Introduction</li>
                         <li>About Ogwugo</li>
                         <li>Installation</li>
                         
@@ -59,7 +59,8 @@ const Docs = (props) => {
                         could go so grate and so wrong at thesame time it becomes quite annoying.
                     </p>
 
-                    <div className="alert alert-success">Hello your name has been registered under those to win 1 million naira</div>
+                    <div className="alert alert-success "><i className="fas fa-info"></i>
+                    Hello your name has been registered under those to win 1 million naira</div>
 
                     <h2> The Concepts</h2>
 
@@ -76,13 +77,13 @@ const Docs = (props) => {
                     <h2>Install</h2>
 
                     <p>Mac (HomeBrew)</p>
-                    <div className="alert alert-success">Sudo install Ogwugo</div>
+                    <div className="alert alert-dark">$  Sudo -y install Ogwugo</div>
 
                     <p>NPM</p>
-                    <div className="alert alert-success">npm install Ogwugo</div>
+                    <div className="alert alert-dark">$  npm install Ogwugo</div>
 
                     <p>Yarn</p>
-                    <div className="alert alert-success">yarn install Ogwugo</div>
+                    <div className="alert alert-dark">$  yarn install Ogwugo</div>
 
 
 

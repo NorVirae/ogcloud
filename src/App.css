@@ -161,6 +161,8 @@ nav ul li {
 
 }
 
+
+
 .showcase-form {
     z-index: 100;
 }
@@ -189,6 +191,8 @@ input:focus {
     color: var(--white-color);
     
 }
+
+
 
 .show-case-para p{
     font-size: 0.8rem;
@@ -479,13 +483,20 @@ input:focus {
 }
 .docs-list .card {
     height: auto;
-    width:auto;
+    width: 100%;
 }
 
 .docs-list .grid {
-    grid-template-columns: 40% 60%;
+    grid-template-columns: 1fr 2fr;
+    align-items: flex-start;
+
 }
 
-.document-lists {
-    justify-self: flex-start;
+
+
+.document-lists ul li {
+    border-bottom: 1px solid rgb(196, 189, 189);
+    margin: 5px;
+    padding:2px 0;
 }
+

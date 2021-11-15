@@ -3,6 +3,7 @@ import {Route, Routes} from 'react-router-dom'
 import Home from './pages/Home';
 import Features from './pages/Features';
 import Docs from './pages/Docs';
+import "./animation.css"
 
 function App() {
   return (
