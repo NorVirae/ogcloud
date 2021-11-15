@@ -320,3 +320,26 @@ input:focus {
 .footer span {
     margin: 5px;
 }
+
+/* Tablets and under */
+
+@media (max-width:768px){
+
+}
+
+/* small sphones and under */
+@media (max-width:500px) {
+
+    .navbar {
+        height: 110px;
+
+    }
+    .navbar .flex {
+        flex-direction: column;
+    }
+
+    .navbar ul {
+        background-color: rgba(0,0,0,0.1);
+        padding: 10px;
+    }
+}
