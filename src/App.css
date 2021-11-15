@@ -78,3 +78,12 @@ nav ul li {
     display: none;
 }
 
+/* Ths the showcase style */
+.show-case {
+    background-color: var(--secondary-color);
+    height: 300px;
+    position: relative;
+    padding: 30px 0;
+    z-index: 1;
+    width: 100%;
+}
