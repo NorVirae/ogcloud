@@ -189,3 +189,10 @@ input:focus {
     font-size: 0.8rem;
     color:var(--white-color);
 }
+
+/* stats begin here */
+
+.stats {
+    padding-top: 160px;
+    
+}
