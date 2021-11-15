@@ -170,8 +170,22 @@ input:focus {
     margin:1px 0;
 }
 
+.show-case .card {
+    justify-self: flex-end;
+}
+
 .btn-outline {
     background-color: transparent;
     border: 1px solid var(--white-color);
     color: var(--white-color);
+}
+
+.show-case-para h1{
+    color: var(--white-color);
+    
+}
+
+.show-case-para p{
+    font-size: 0.8rem;
+    color:var(--white-color);
 }
