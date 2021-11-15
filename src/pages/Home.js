@@ -28,6 +28,32 @@ const Home = (props) => {
         </div>
     </section>
 
+    <section class="stats">
+        <div class="container">
+        <p class="stats-heading">Welcome to the most appropriate tool for developing the skillset of able and cogent programmers!</p>
+            <div class=" grid grid-3">
+                <div>
+                    <i class="fas fa-server"></i>
+                    <h1>10,349,405</h1>
+                    <p>Deployments</p>
+                </div>
+
+                <div>
+                    <i class="fas fa-upload"></i>
+                    <h1>987TB</h1>
+                    <p>published</p>
+                </div>
+
+                <div>
+                    <i class="fas fa-project-diagram"></i>
+                    <h1>2,433,265</h1>
+                    <p>Projects</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
         
 
 
