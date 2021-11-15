@@ -49,3 +49,18 @@ h1, h2 {
 .text-center {
     text-align:center;
 }
+
+.bg-secondary {
+    background-color:var(--secondary-color);
+}
+
+.bg-ash {
+    background-color: rgb(212, 206, 206);
+}
+
+
+/* text-colors */
+
+.text-white {
+    color:var(--white-color)
+}
