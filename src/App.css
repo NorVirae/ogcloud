@@ -99,3 +99,13 @@ nav ul li {
 
 }
 
+.card {
+    position: relative;
+    top:60px;
+    background-color: var(--white-color);
+    border-radius: 9px;
+    padding: 20px;
+    height: 300px;
+    width: 300px;
+    box-shadow: 2px 2px 10px rgb(0, 0, 0, 0.2);
+}
