@@ -2,6 +2,13 @@ import {Link} from 'react-router-dom';
 import Navbar from '../components/Navbar';
 import cliImage from '../assets/images/cli.png'
 import cloudImage from '../assets/images/cloud.jpg'
+import Python from '../assets/icons/python.svg'
+import Nodes from '../assets/icons/node.svg'
+import Scala from '../assets/icons/scala.svg'
+import Clojure from '../assets/icons/clojure.svg'
+import Ruby from '../assets/icons/ruby.svg'
+import PHP from '../assets/icons/php.svg'
+import CSharp from '../assets/icons/csharp.svg'
 
 const Home = (props) => {
     return (<>
@@ -81,7 +88,49 @@ const Home = (props) => {
 
             <img src={cloudImage} alt="cloud-image" />
         </div>
-    </section>      
+    </section>    
+      {/*Languages section starts here  */}
+
+      <section class="languages">
+        <h3 class="cloud-lg">Supported Languages</h3>
+                <div class="container flex">
+                    <div class="card">
+                        <h3>Python</h3>
+                        <img src={Python} alt="python logo" />
+                    </div>
+
+                    <div class="card">
+                        <h3>Node&nbsp;js</h3>
+                        <img src={Nodes} alt="node logo" />
+                    </div>
+
+                    <div class="card">
+                        <h3>Ruby</h3>
+                        <img src={Ruby} alt="ruby logo" />
+                    </div>
+
+                    <div class="card">
+                        <h3>clojure</h3>
+                        <img src={Clojure} alt="clojure logo" />
+                    </div>
+
+                    <div class="card">
+                        <h3>PHP</h3>
+                        <img src={PHP} alt="php logo" />
+                    </div>
+
+                    <div class="card">
+                        <h3>Scala</h3>
+                        <img src={Scala} alt="scala logo" />
+                    </div>
+
+                    <div class="card">
+                        <h3>C#</h3>
+                        <img src={CSharp} alt="csharp logo" />
+                    </div>
+                </div>
+    </section>
+
 
 
     </>)
