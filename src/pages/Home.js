@@ -18,22 +18,22 @@ const Home = (props) => {
         <section class="show-case">
         <div class="container grid">
             <div class="show-case-para">
-                <h1>THE BEST TOOL FOR DEVOPS!</h1>
-                <p>this is really the best tool for developers, it's providencial that developers
+                <h1 className="fadeInFirst">THE BEST TOOL FOR DEVOPS!</h1>
+                <p className="fadeInSecond">this is really the best tool for developers, it's providencial that developers
                     who have less number of years of experience and less project on their portfolio
                 </p>
-                <button class="btn btn-outline">
+                <button class="btn btn-outline fadeInThird">
                     VISIT!
                 </button>
             </div>
 
             <div class="showcase-form card">
                 <form class="form-control">
-                    <p><h1>Hey Sign Up!</h1></p>
-                    <input placeholder="Name" name="name" type="text"/>
-                    <input placeholder="Email" name="email" type="email"/>
-                    <input placeholder="Company" name="company" type="text"/>
-                    <input class="btn btn-secondary" type="submit" />
+                    <p><h1 className="fadeInFirst">Hey Sign Up!</h1></p>
+                    <input className="fadeInSecond" placeholder="Name" name="name" type="text"/>
+                    <input className="fadeInThird" placeholder="Email" name="email" type="email"/>
+                    <input className="fadeInFourth" placeholder="Company" name="company" type="text"/>
+                    <input  class="btn btn-secondary fadeInFifth" type="submit" />
                 </form>
             </div>
         </div>
@@ -42,24 +42,24 @@ const Home = (props) => {
 {/* stats is here */}
     <section class="stats">
         <div class="container">
-        <p class="stats-heading">Welcome to the most appropriate tool for developing the skillset of able and cogent programmers!</p>
+        <p class="stats-heading fadeInFirst">Welcome to the most appropriate tool for developing the skillset of able and cogent programmers!</p>
             <div class=" grid grid-3">
-                <div>
-                    <i class="fas fa-server"></i>
-                    <h1>10,349,405</h1>
-                    <p>Deployments</p>
+                <div className="fadeInFirst">
+                    <i class="fas fa-server fadeInFirst"></i>
+                    <h1 className="fadeInSecond">10,349,405</h1>
+                    <p className="fadeInThird">Deployments</p>
                 </div>
 
-                <div>
-                    <i class="fas fa-upload"></i>
-                    <h1>987TB</h1>
-                    <p>published</p>
+                <div className="fadeInSecond">
+                    <i class="fas fa-upload fadeInFirst"></i>
+                    <h1 className="fadeInSecond">987TB</h1>
+                    <p className="fadeInSecond">published</p>
                 </div>
 
-                <div>
-                    <i class="fas fa-project-diagram"></i>
-                    <h1>2,433,265</h1>
-                    <p>Projects</p>
+                <div className="fadeInThird">
+                    <i class="fas fa-project-diagram fadeInFirst"></i>
+                    <h1 className="fadeInSecond">2,433,265</h1>
+                    <p className="fadeInSecond">Projects</p>
                 </div>
             </div>
         </div>

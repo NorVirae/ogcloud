@@ -42,11 +42,45 @@
     }
 }
 
-.show-case-para {
-    animation: floatFromUp 1s ease-in;
 
+@keyframes fadeIn {
+    0% {
+        opacity: 0;
+        transform: translateY(-5%);
+    }
+
+    
+
+    100% {
+        transform: translateY(0%);
+
+        opacity: 1;
+    }
 }
 
+.fadeInFirst {
+    animation: fadeIn 1s ease-in;
+}
+
+.fadeInSecond {
+    animation: fadeIn 2s ease-in;
+}
+
+.fadeInThird {
+    animation: fadeIn 3s ease-in;
+}
+
+.fadeInFourth {
+    animation: fadeIn 4s ease-in;
+}
+
+.fadeInFifth {
+    animation: fadeIn 2.5s ease-in;
+}
+
+
+
+
 .showcase-form {
-    animation: floatFromLeft 1s ease-in;
+    animation: floatFromLeft 0.7s ease-in;
 }
