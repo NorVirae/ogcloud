@@ -417,3 +417,15 @@ input:focus {
     justify-self: flex-end;
     
 }
+
+/* Platform */
+
+.platform {
+    padding: 20px 10px;
+}
+
+.platform img {
+    width: 200px;
+    height: 100%;
+    justify-self: flex-end;
+}
