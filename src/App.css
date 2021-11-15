@@ -73,3 +73,7 @@ nav ul li {
     background-color: var(--secondary-color);
     position: relative;
 }
+
+.navbar .flex::-webkit-scrollbar  {
+    display: none;
+}
