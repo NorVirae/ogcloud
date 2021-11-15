@@ -226,3 +226,31 @@ input:focus {
 
 /* CLi Starts here */
 
+.cli {
+    margin: 30px 0;
+    padding: 30px 0;
+}
+.cli .card {
+    height: 100%;
+    text-align: center;
+    justify-content: center;
+    padding: auto;
+}
+
+.cli img {
+    height: 100%;
+}
+
+.cli .grid {
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    gap: 50px;
+    height: 120px;
+
+}
+
+.cli  .grid > *:first-child {
+    grid-column: 1/span 2;
+    grid-row: 1/span 2;
+    width: 100%;
+}
