@@ -146,6 +146,7 @@ nav ul li {
 
 .showcase-form input[type="text"],
 .showcase-form input[type="email"] {
+    background-color: var(--white-color);
     display: block;
     padding:5px;
     margin:30px 0;
