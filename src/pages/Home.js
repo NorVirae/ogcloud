@@ -130,7 +130,7 @@ const Home = (props) => {
                     </div>
                 </div>
     </section>
-
+{/* The footer starts here */}
     <footer class="footer">
         <div class="container grid grid-3">
             <div>

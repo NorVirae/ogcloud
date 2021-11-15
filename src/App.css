@@ -296,3 +296,27 @@ input:focus {
     transform: translateY(-9px);
 }
 
+/* Styling for the footer */
+.footer {
+    padding: 20px;
+    background-color:var(--secondary-color);
+    color: var(--white-color);
+    height: 100%;
+}
+
+.footer ul {
+    display: flex;
+    flex-direction: column;
+    list-style-type:none;
+}
+
+.footer ul li {
+    margin:5px;
+}
+.footer a {
+    color: var(--white-color);
+}
+
+.footer span {
+    margin: 5px;
+}
