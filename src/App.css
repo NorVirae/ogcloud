@@ -143,3 +143,34 @@ nav ul li {
     -ms-transform: skewY(-3deg);
 
 }
+
+.showcase-form input[type="text"],
+.showcase-form input[type="email"] {
+    display: block;
+    padding:5px;
+    margin:30px 0;
+    border:0;
+    border-bottom:1px solid var(--secondary-color);
+    width: 100%;
+
+}
+
+.showcase-form {
+    z-index: 100;
+}
+
+input:focus {
+    outline: none;
+    border-bottom:5px solid rgb(47, 219, 56);
+
+}
+
+.show-case .showcase-form p, .show-case .showcase-form h1 {
+    margin:1px 0;
+}
+
+.btn-outline {
+    background-color: transparent;
+    border: 1px solid var(--white-color);
+    color: var(--white-color);
+}
