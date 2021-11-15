@@ -46,6 +46,55 @@ const Features = (props) => {
         </div>
     </section>
 
+    { /*Features main*/}
+
+    <section class="features-main">
+        <div class="container grid grid-3">
+            <div class="card flex">
+                <i class="fas fa-server fa-3x"></i>
+                <p class="">The Platform where all your cloudy dream comes to life to haunt you it makes you
+                    a better person at whatever you are doing currently.
+                </p>
+            </div>
+
+            <div class="card flex">
+                <i class="fas fa-laptop fa-3x"></i>
+                <p class="">You can reach the platform from any device anywhere around the world
+                </p>
+            </div>
+
+            <div class="card flex">
+                <i class="fas fa-upload fa-3x"></i>
+                <p class="">Upload all your huge files,, and mine your cryptos with our super power quantum
+                    computers
+                </p>
+            </div>
+
+            <div class="card flex">
+                <i class="fas fa-project-diagram fa-3x"></i>
+                <p class="">Ride with all your projects with ease and complete even the most trying tasks
+                </p>
+            </div>
+
+            <div class="card flex">
+                <i class="fas fa-user fa-3x"></i>
+                <p class="">Bring all your users in one place and manage them with just a click
+                </p>
+            </div>
+
+            <div class="card flex">
+                <i class="fas fa-hospital fa-3x"></i>
+                <p class="">Get your patients data on the cloud as fast as possible and achieve 
+                    maximum rennanise
+                </p>
+            </div>
+
+          
+
+        </div>
+    </section>
+
+
 
         {/*Footer  */}
         <Footer/>
