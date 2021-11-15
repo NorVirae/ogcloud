@@ -330,6 +330,12 @@ input:focus {
     .stats .grid{
         grid-template-columns: 1fr;
     }
+
+    .languages .flex {
+        flex-wrap: wrap;
+
+    }
+
 }
 
 /* small sphones and under */
