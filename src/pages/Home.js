@@ -1,6 +1,7 @@
 import {Link} from 'react-router-dom';
 import Navbar from '../components/Navbar';
 import cliImage from '../assets/images/cli.png'
+import cloudImage from '../assets/images/cloud.jpg'
 
 const Home = (props) => {
     return (<>
@@ -68,7 +69,19 @@ const Home = (props) => {
         </div>
     </section>
 
-        
+{/* Cloud starts here */}
+
+<section class="cloud">
+        <div class="container grid">
+            <div class="cloud-talk text-center">
+                <h3 class="lg text-white">Extreme Cloud Hosting</h3>
+                <p class="lead text-white">Cloud hosting like you have never seen, Fafst, Efficient and Scalable.</p>
+                <button class="btn btn-outline">Read more</button>
+            </div>
+
+            <img src={cloudImage} alt="cloud-image" />
+        </div>
+    </section>      
 
 
     </>)

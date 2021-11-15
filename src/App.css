@@ -254,3 +254,22 @@ input:focus {
     grid-row: 1/span 2;
     width: 100%;
 }
+
+.cloud {
+    padding-top:60px;
+    margin: 160px 0 0 0;
+    padding: 10px 30px 20px 0;
+
+    background-color: var(--secondary-color);
+}
+
+.cloud .grid {
+    grid-template-columns: 4fr 3fr;
+}
+
+.cloud img{
+    border-radius:9px;
+
+}
+
+
