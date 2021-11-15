@@ -1,11 +1,10 @@
 import {Link} from 'react-router-dom';
 
-
 const Home = (props) => {
     return (<>
         <div className="navbar">
             <div className="container flex">
-            <h1>Ogwugo!</h1>
+            <h1><Link to="/">Ogwugo!</Link></h1>
             <nav>
                 <ul>
                     <li><Link to="/">Home</Link></li>
