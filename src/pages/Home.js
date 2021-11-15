@@ -1,9 +1,12 @@
 import {Link} from 'react-router-dom';
 import Navbar from '../components/Navbar';
+import cliImage from '../assets/images/cli.png'
 
 const Home = (props) => {
     return (<>
+    {/* the Navbar */}
         <Navbar />
+        {/* the showcase */}
         <section class="show-case">
         <div class="container grid">
             <div class="show-case-para">
@@ -28,6 +31,7 @@ const Home = (props) => {
         </div>
     </section>
 
+{/* stats is here */}
     <section class="stats">
         <div class="container">
         <p class="stats-heading">Welcome to the most appropriate tool for developing the skillset of able and cogent programmers!</p>
@@ -53,6 +57,16 @@ const Home = (props) => {
         </div>
     </section>
 
+{/* the cli part */}
+
+<section class="cli">
+        <div class="container grid">
+            <div class="card padding-0"> <img src={cliImage} alt="cli" /></div>
+            <div class="card">Easy to use cross platform cli</div>
+            <div class="card">Deploy in seconds</div>
+
+        </div>
+    </section>
 
         
 

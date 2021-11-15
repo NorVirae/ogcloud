@@ -129,7 +129,6 @@ nav ul li {
 
 .btn:hover {
     transform:scale(0.98)
-    
 }
 
 .show-case::before,.show-case::after{
@@ -202,3 +201,28 @@ input:focus {
     padding-top: 160px;
     
 }
+
+.stats p {
+    font-size: 1.2re;
+    text-align: center;
+}
+
+.stats i {
+    font-size: 2.5rem;
+    text-align: center;
+    display: block;
+}
+
+.stats h1 {
+    text-align: center;
+    font-size: 2.3rem;
+}
+
+.stats-heading {
+    max-width: 500px;
+    margin:auto;
+    padding:30px 0;
+}
+
+/* CLi Starts here */
+
