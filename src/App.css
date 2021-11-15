@@ -336,6 +336,25 @@ input:focus {
 
     }
 
+    .cli .grid {
+        grid-template-columns: 1fr;
+        height: auto;
+    }
+
+    .cli .card {
+        height: auto;
+    }
+
+    .show-case {
+        margin: auto;
+        height: auto;
+    }
+
+    .showcase-form {
+        justify-self: center;
+    }
+
+
 }
 
 /* small sphones and under */
