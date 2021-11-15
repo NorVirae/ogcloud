@@ -324,7 +324,12 @@ input:focus {
 /* Tablets and under */
 
 @media (max-width:768px){
-
+    .show-case .grid,
+    .cloud .grid,
+    .footer .grid ,
+    .stats .grid{
+        grid-template-columns: 1fr;
+    }
 }
 
 /* small sphones and under */
